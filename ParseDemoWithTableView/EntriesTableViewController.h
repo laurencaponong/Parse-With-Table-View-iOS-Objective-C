@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
-@interface EntriesTableViewController : UITableViewController
+@interface EntriesTableViewController : UITableViewController <UITableViewDelegate> {
+    
+    NSArray *entriesArray;
+}
 
 @end

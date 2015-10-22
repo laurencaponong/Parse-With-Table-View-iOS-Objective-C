@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		331E6D86B72C5FEE832E1DDA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3317492F8EFFA857B92720F2 /* libPods.a */; };
+		89043E0C1BD9717100148130 /* EntryCreationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89043E0B1BD9717100148130 /* EntryCreationViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8964AE491BCDE662002ABA12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8964AE481BCDE662002ABA12 /* main.m */; };
 		8964AE4C1BCDE662002ABA12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8964AE4B1BCDE662002ABA12 /* AppDelegate.m */; };
 		8964AE521BCDE662002ABA12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8964AE501BCDE662002ABA12 /* Main.storyboard */; };
@@ -21,6 +22,8 @@
 		3317492F8EFFA857B92720F2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A51D415C9F47201EC2FC722 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7F7A8E52EDC3EC2AFC6DF1E1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		89043E0A1BD9717100148130 /* EntryCreationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryCreationViewController.h; sourceTree = "<group>"; };
+		89043E0B1BD9717100148130 /* EntryCreationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryCreationViewController.m; sourceTree = "<group>"; };
 		8964AE441BCDE661002ABA12 /* ParseDemoWithTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseDemoWithTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8964AE481BCDE662002ABA12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8964AE4A1BCDE662002ABA12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 				8964AE501BCDE662002ABA12 /* Main.storyboard */,
 				89CA97DD1BCDE6FE004DA76C /* EntriesTableViewController.h */,
 				89CA97DE1BCDE6FE004DA76C /* EntriesTableViewController.m */,
+				89043E0A1BD9717100148130 /* EntryCreationViewController.h */,
+				89043E0B1BD9717100148130 /* EntryCreationViewController.m */,
 				89CA97E01BCDE78B004DA76C /* Entry.h */,
 				89CA97E11BCDE78B004DA76C /* Entry.m */,
 				8964AE531BCDE662002ABA12 /* Assets.xcassets */,
@@ -214,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89043E0C1BD9717100148130 /* EntryCreationViewController.m in Sources */,
 				89CA97E21BCDE78B004DA76C /* Entry.m in Sources */,
 				8964AE4C1BCDE662002ABA12 /* AppDelegate.m in Sources */,
 				89CA97DF1BCDE6FE004DA76C /* EntriesTableViewController.m in Sources */,

@@ -29,8 +29,8 @@
     // Override point for customization after application launch.
     
     
-    [Parse setApplicationId:@"d4QBKnNptgpeFwOvuSOqPu6DKpd7mo9bmk2WvtYV"
-                  clientKey:@"aEplV1YL2sWEtlHKAjx8t4ERBubrXGWCYZGpkCuq"];
+    [Parse setApplicationId:@"UfFYgR4NxtV2JFdOd68Zkrqd3YnNzaTIE0hfBzH6"
+                  clientKey:@"zBMgebQjrfkTQO8ex9o9sya5sXBZgMSq7vSR9KSU"];
     
     
     [Entry registerSubclass];
